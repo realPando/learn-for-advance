@@ -27,19 +27,21 @@ public class BubbleSort {
 
     public static void main(String[] args) {
         int i;
-        int[] a = {20,40,30,10,60,50};
+        int[] a = {20, 40, 30, 10, 60, 50};
 
         System.out.printf("before sort:");
-        for (i=0; i<a.length; i++)
+        for (i = 0; i < a.length; i++){
             System.out.printf("%d ", a[i]);
+        }
         System.out.printf("\n");
 
         sort(a, a.length);
         //bubbleSort2(a, a.length);
 
         System.out.printf("after  sort:");
-        for (i=0; i<a.length; i++)
+        for (i=0; i<a.length; i++) {
             System.out.printf("%d ", a[i]);
+        }
         System.out.printf("\n");
     }
 }

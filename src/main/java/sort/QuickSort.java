@@ -38,15 +38,17 @@ public class QuickSort {
         int[] a = {20,40,30,10,60,50};
 
         System.out.printf("before sort:");
-        for (int i=0; i<a.length; i++)
+        for (int i=0; i<a.length; i++) {
             System.out.printf("%d ", a[i]);
+        }
         System.out.printf("\n");
 
         sort(a, a.length);
 
         System.out.printf("after  sort:");
-        for (int i=0; i<a.length; i++)
+        for (int i=0; i<a.length; i++) {
             System.out.printf("%d ", a[i]);
+        }
         System.out.printf("\n");
     }
 
